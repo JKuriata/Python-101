@@ -41,15 +41,15 @@ grind_beans()           #Running the function
 print("-------------")
 #Perameters are the things in the brackets and give you the ability to call on different data inputs. 
 #Example from lesson 2:
-def cash_withdrawl (cash_amount, acc_number):
+def cash_withdrawal (cash_amount, acc_number):
     print(f"Withdrawing £{cash_amount} from account {acc_number}")
 
-cash_withdrawl(300, 450230958)
+cash_withdrawal(300, 450230958)
 
 print("-------------")
 #Instead of using variables we used perameters, this is generally preferred in programming. 
 #It means we can reuse the code much easier.
-cash_withdrawl(500, 235056382)
+cash_withdrawal(500, 235056382)
 print("-------------")
 
 #Lets use another example from lesson 2 and use perameters instead of variables.
