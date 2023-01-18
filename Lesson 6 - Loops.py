@@ -82,10 +82,10 @@ print(f"You've found {my_num}")
 for count in range(13):
     print("Hello World")
 print(("--------------"))
+
 print_count = 0
-string = "Hello World"
 while print_count < 13:
-    print(string)
+    print("Hello World")
     print_count += 1
 print("--------------")
 #endregion
@@ -117,6 +117,17 @@ while rand_suit != my_suit:
     print(rand_suit)
     rand_suit = (random.choice(cards))
 print(f"You've found {my_suit}")
+print("--------------")
+#endregion
+#---------------
+
+# Activity 4
+# Create a loop that asks a user to input a number, then displays the multiplication table for that number up to 12.
+#---------------
+#region - Answer
+num = int(input ("Please input your number: "))
+for x in range(12):
+    print(f"{num} * {x+1} = {(x+1) * (num)}")
 print("--------------")
 #endregion
 #---------------
