@@ -123,11 +123,16 @@ print("--------------")
 
 # Activity 4
 # Create a loop that asks a user to input a number, then displays the multiplication table for that number up to 12.
+#Make it loop so the user can input a new number.
 #---------------
 #region - Answer
-num = int(input ("Please input your number: "))
-for x in range(12):
-    print(f"{num} * {x+1} = {(x+1) * (num)}")
+printing = True
+while printing:
+    num = int(input ("Please input your number: "))
+    for x in range(12):
+        print(f"{num} * {x+1} = {(x+1) * (num)}")
+    printing = False
+    printing = True
 print("--------------")
 #endregion
 #---------------
