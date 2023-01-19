@@ -129,10 +129,11 @@ print("--------------")
 printing = True
 while printing:
     num = int(input ("Please input your number: "))
+    print("or type 00 to end")
+    if input == "00":
+        printing = False
     for x in range(12):
         print(f"{num} * {x+1} = {(x+1) * (num)}")
-    printing = False
-    printing = True
 print("--------------")
 #endregion
 #---------------
