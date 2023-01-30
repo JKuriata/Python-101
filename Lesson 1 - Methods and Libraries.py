@@ -1,11 +1,11 @@
 #There are a few built in data types in python, they are:
     #Strings - text
-    #Interger - whole numbers
+    #Integer - whole numbers
     #Floating points - decimals
     #None - nothing
     #Boolean - true or false
 #You can apply various methods to these data types, first we'll focus on strings
-#To print your first string enter the below into your termminal
+#To print your first string enter the below into your terminal
 print("Hello World!")
 #Congrats, from there you can begin to play around with some methods! 
 #Say you wanted to find a specific part of a string, you could use the method below:
@@ -24,13 +24,13 @@ print("    Strip".strip())
 print("Upper".upper())
     #capitalize() (note American spelling)
 print("capitalize".capitalize())
-    #count()  (count the number of times a letter appeats in the string)
+    #count()  (count the number of times a letter appears in the string)
 print("count".count("o"))
     #find()  (find a specific letter in the string)
 print("find".find("f"))
     #replace()  (replace a specific thing)
 print("replace".replace("place", "mix"))
-#As seen above some methods require perameters (the things in the brackets after the method)
+#As seen above some methods require perimeters (the things in the brackets after the method)
 #As you can see, methods are simply a way to manipulate the object (strings in this case)
 #----------------------------------------------------
 #Next up - Libraries
@@ -47,11 +47,11 @@ print(random.random())  #Look a .random() method!
 #It generates a random floating point between 0 - 1!
 #Alright so what else can we make it do?
 print(random.uniform(1, 10))  #What's the method here?
-#Now insted of giving me a number from 0-1 it gives me a number from 1-10
+#Now instead of giving me a number from 0-1 it gives me a number from 1-10
 #But how often do we want random decimals?
 print(random.randint(1,10))
-#This instead generates an interger between 1-10
-#And I bet you're thinkingm, but when would I need a random number?
+#This instead generates an integer between 1-10
+#And I bet you're thinking, but when would I need a random number?
 # BONK! Always! It's how I coded my villain giving a random speech during battle and how I made the damage random!
 #Ok but say you knew you only needed certain methods from the random library?
 #You can import just them! 
